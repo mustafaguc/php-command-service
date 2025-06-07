@@ -36,4 +36,5 @@ RUN apk update \
         libjpeg-turbo \
         libsodium \
         libaio \
-        libc6-compat
+        libc6-compat \ 
+    && ln -s /usr/bin/php${PHP_VERSION} /usr/bin/php
