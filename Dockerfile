@@ -1,4 +1,4 @@
-FROM ghcr.io/mustafaguc/command-service:1.0.1
+FROM ghcr.io/mustafaguc/command-service:1.1.0
 ENV PHP_VERSION=82
 
 RUN apk update \
